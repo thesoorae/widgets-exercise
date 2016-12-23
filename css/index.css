@@ -1,0 +1,58 @@
+html, body,h1,h2,h3,ul,li,div,article {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+
+}
+div.main-div{
+  display:block;
+  position:relative;
+}
+div.tabs {
+
+
+}
+
+.tabs ul{
+  display:flex;
+  width: 200px;
+
+}
+.tabs li:hover{
+  background-color: black;
+  color: white;
+}
+.tabs li{
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-content: space-between;
+  border: 2px solid black;
+  border-radius: 5px 5px 0px 0px;
+  width: 60px;
+  padding: 3px;
+  border-bottom: 0px;
+
+  }
+
+.tabs article{
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+  top: 25px;
+  width: 180px ;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 0px 0px 5px 5px;
+  background-color: transparent;
+}
+
+div.clock {
+  display: inline-block;
+}
